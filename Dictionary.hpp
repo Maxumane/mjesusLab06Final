@@ -14,7 +14,7 @@ using namespace std;
 
 class dictionary {
 private:
-    ifstream idictDoc {"dictionary.txt"};
+    ifstream idictDoc {"../dictionary.txt"};
     ofstream odictDoc;// Opens data for writing
     map<string, string> wordMap;
 

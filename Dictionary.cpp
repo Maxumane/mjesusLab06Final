@@ -74,7 +74,7 @@ void dictionary::addWord() {
         cin.ignore();
         getline(cin, definition);
         wordMap.insert(make_pair(addKey, definition));
-        odictDoc.open("dictionary.txt", std::ios_base::app);
+        odictDoc.open("../dictionary.txt", std::ios_base::app);
 
 
         odictDoc << addKey << endl << definition << endl;
