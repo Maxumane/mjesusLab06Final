@@ -16,6 +16,9 @@ dictionary::dictionary() {
             continue;
         }
         getline(idictDoc, definition);
+
+
+
         wordMap.insert(make_pair(word, definition));
     }
 }

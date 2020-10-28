@@ -1,5 +1,2 @@
-
-dfer
-mhm
-er
-ads
+start
+The first word found in the dictionary
