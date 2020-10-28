@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/mjesusLab06Final.dir/main.cpp.o CMakeFiles/mjesusLab06Final.dir/Dictionary.cpp.o  -o mjesusLab06Final.exe -Wl,--out-implib,libmjesusLab06Final.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
