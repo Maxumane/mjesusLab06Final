@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/Max/CLionProjects/mjesusLab06Final/Dictionary.cpp
+iostream
+-
+algorithm
+-
+Dictionary.hpp
+/cygdrive/c/Users/Max/CLionProjects/mjesusLab06Final/Dictionary.hpp
+
+/cygdrive/c/Users/Max/CLionProjects/mjesusLab06Final/Dictionary.hpp
+map
+-
+fstream
+-
+
+/cygdrive/c/Users/Max/CLionProjects/mjesusLab06Final/main.cpp
+iostream
+-
+Dictionary.hpp
+/cygdrive/c/Users/Max/CLionProjects/mjesusLab06Final/Dictionary.hpp
+
