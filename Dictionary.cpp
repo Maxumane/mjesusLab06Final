@@ -15,8 +15,16 @@ dictionary::dictionary() {
         if (word == "") {
             continue;
         }
+
         getline(idictDoc, definition);
 
+
+        std::for_each(word.begin(), word.end(), [](char & c){
+            c = ::tolower(c);
+        });
+        std::for_each(definition.begin(), definition.end(), [](char & c){
+            c = ::tolower(c);
+        });
 
 
         wordMap.insert(make_pair(word, definition));
